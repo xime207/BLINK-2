@@ -1,3 +1,7 @@
+body{
+    background: #12c2e9;
+	background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9); 
+}
 .contenedor {
     display: flex;
     font-family: 'Raleway', sans-serif;
@@ -37,7 +41,7 @@
 }
 
 .quienes {
-    background-color: #f6f7eb;
+    background: rgba(255, 255, 255, 0.5);
     text-align: center;
     justify-content: space-evenly;
     width:100%;
@@ -54,7 +58,8 @@
 }
 
 .servicios {
-    background-color: #ffdb4d;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px 0px 10px 0px;
     justify-content: space-evenly;
     width: 100%;
 }
@@ -79,13 +84,15 @@
 }
 
 .clientes {
-    background-color:#e94f37;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0px 5px 0px 0px;
     justify-content: space-evenly;
     width: 50%;
 }
 
 .portfolio {
-    background-color: #44bba4;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0px 0px 0px 5px;
     justify-content: space-evenly;
     width: 50%;
 }
