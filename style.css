@@ -98,6 +98,10 @@ body{
     width: 50%;
 }
 
+.portfolio button a{
+    text-decoration: none;
+}
+
 div.contenedor.banner{
     margin: 0;
     background-position: center;
