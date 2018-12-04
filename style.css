@@ -48,6 +48,11 @@ body{
     width:100%;
 }
 
+.quienes2 {
+    text-align: center;
+    justify-content: space-evenly;
+}
+
 .jefa div img{
     width: 150px;
     border-radius: 50%;
