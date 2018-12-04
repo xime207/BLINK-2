@@ -118,7 +118,7 @@ div.contenedor.banner{
     margin: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(banner_home.jpg);
+    background-image: url(imagenes/banner_home.jpg);
     width: 100%;
     height: 300px;
     background-color: fuc
@@ -201,7 +201,7 @@ div.contenedor.banner2{
     margin: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(banner_contacto.jpg);
+    background-image: url(imagenes/banner_contacto.jpg);
     width: 100%;
     height: 300px;
 }
@@ -210,7 +210,7 @@ div.contenedor.banner3{
     margin: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(portfolio.jpg);
+    background-image: url(imagenes/portfolio.jpg);
     width: 100%;
     height: 300px;
 }
@@ -219,7 +219,7 @@ div.contenedor.banner4{
     margin: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(banner_clientes.png);
+    background-image: url(imagenes/banner_clientes.png);
     width: 100%;
     height: 300px;
 }
