@@ -59,8 +59,11 @@ body{
 }
 
 .cajas {
+    background: rgba(255, 255, 255, 0.5);
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .servicios {
@@ -71,9 +74,9 @@ body{
 }
 
 .descripcion{
+    background: rgba(255, 255, 255, 0.5);
     text-align: center;
-    margin-right: 1em;
-    margin-left: 1em;
+    width: 100%;
 }
 
 
@@ -115,7 +118,7 @@ div.contenedor.banner{
     margin: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(banner_home.jpg);
+    background-image: url(imagenes/banner_home.jpg);
     width: 100%;
     height: 300px;
     background-color: fuc
@@ -173,7 +176,7 @@ form .mensaje{
 }
 
 form .enviar{
-    width: 10%;
+    width: 15vw;
     padding: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -194,11 +197,17 @@ input::placeholder{
     width: 100%;
 }
 
+.date{
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+}
+
 div.contenedor.banner2{
     margin: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(banner_contacto.jpg);
+    background-image: url(imagenes/banner_contacto.jpg);
     width: 100%;
     height: 300px;
 }
@@ -207,7 +216,7 @@ div.contenedor.banner3{
     margin: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(portfolio.jpg);
+    background-image: url(imagenes/portfolio.jpg);
     width: 100%;
     height: 300px;
 }
@@ -216,7 +225,25 @@ div.contenedor.banner4{
     margin: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(banner_clientes.png);
+    background-image: url(imagenes/banner_clientes.png);
     width: 100%;
     height: 300px;
 }
+
+.cajitas {
+    background: rgba(255, 255, 255, 0.5);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo img{
+        height: 50%;
+    }
+    .fab{
+        padding: 0px 5px 0px 5px;
+    }
+}
+
+
+
