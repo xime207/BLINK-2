@@ -197,6 +197,12 @@ input::placeholder{
     width: 100%;
 }
 
+.date{
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+}
+
 div.contenedor.banner2{
     margin: 0;
     background-position: center;
@@ -233,6 +239,9 @@ div.contenedor.banner4{
 @media only screen and (max-width: 600px) {
     .logo img{
         height: 50%;
+    }
+    .fab{
+        padding: 0px 5px 0px 5px;
     }
 }
 
