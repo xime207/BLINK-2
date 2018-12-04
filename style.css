@@ -59,6 +59,7 @@ body{
 }
 
 .cajas {
+    background: rgba(255, 255, 255, 0.5);
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -71,9 +72,9 @@ body{
 }
 
 .descripcion{
+    background: rgba(255, 255, 255, 0.5);
     text-align: center;
-    margin-right: 1em;
-    margin-left: 1em;
+    width: 100%;
 }
 
 
